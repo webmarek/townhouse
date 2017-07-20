@@ -1,0 +1,36 @@
+POMYSŁ NA flats.php:
+    koncepcja główna - one page
+
+        content jest na jedenj dłuugiej stronie, ktora ma:
+        albo stickty menu, albo przewijaczke do gory, albo jedno i drugie ++
+
+
+
+POMYSŁ ns css ogólnie:
+    ujednolicic containery - class contentContainer, nie id container1, container2 itd +
+
+
+POMYSŁ na funkcję drawTable w index.php we flatsach
+    czy bedzie dalo sie ja umiescic w modelu?
+    czy musi zostac w tym miejscu gdzi jest? to sie okaze
+
+
+
+POMYSŁ NA placeholdery w formularzach zrobionych widgetem DIALOG ++
+
+
+LINK DO LOGOWANIA ADMINA ++
+
+PRZENIEŚĆ MENU Z main.php DO index.php WE flatsach ++
+
+ZROBIC PORZĄDEK ze skryptami javascriptu ++
+
+WIDGET ACCORDION z tabelami zuzycia... albo <<<faq>>> albo cos innego
+
+pomysł na dodatkowy przycisk wylaczajacy auto-check on blur drugi input , wraz z tooltipem
+
+zmienic te jezdzace przyciski na framework Icons
+
+zgitować
+
+dodac przysik ktory z powrotem zmieni kolor wszytskich poletek na biały

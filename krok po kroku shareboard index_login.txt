@@ -1,0 +1,37 @@
+1: jest to href="<?php echo ROOT_URL; ?>users/login"
+czyli http://localhost/php.dev/   users/login
+
+w pliku index.php tworzymy obiekt $bootstrap klasy Bootstrap
+
+otrzymuje on $_GET przy tworzeniu - czyli $_GET[]
+
+jego properties to: 
+ $request - dzieki funkcji __construct przybiera wartoœæ '$_GET' przrobionego przez plik .htaccess
+ $controller - dzieki funkcji __construct przybiera wartoœæ 'users'
+ $action - dzieki funkcji __construct przybiera wartoœæ 'login'
+ 
+2: potem uzywamy funkcji createController (fn klsy Bootstrap) by stworzyc nowy obiekt $users klasy Users (extends 
+Controller)
+
+dostaje on przy tworzeniu dwa argumenty:
+ $action - które wysz³o z property $action obiektu $bootstrap klasy Bootstrap. Ma ono wartoœæ 'login'
+ $request - które wysz³o z property $request obiektu $bootstrap klasy Bootstrap. Ma ono wartoœæ '$_GET[]'
+obydwa property tej klasy otrzymuja wlaœnie te argumenty jako wartoœci
+
+3: sprawdzamy czy powsta³ z sukcesem obiekt klasy Users
+jesli tak to odpalamy na nim funkcje executeAction() 
+... do tego momentu dzieje sie to w index.php ...
+ta funkcja jest dziedziczona przez Users z klasy - parenta (Controller)
+odpala ona cos takiego
+return $this->{$this->action}();
+$users->login()       
+ta funkcja tworzy nowy obiekt $viewmodel klasy UserModel
+a nastepnie odpala swoja (caly czas jestesmy wewnatrz obiektu klasy Users - czyli dziecku Controllera!) 
+dziedziczona funkcje returnView($viewModel - obiekt klasy UserModel, true)
+
+w tym przypadku dziala ona tak:
+
+$view to ciag znaków: /views/Users/action - property klasy Users, przybierajace wartosc 'login' oraz na koncu .php
+Users wziê³o siê st¹d, ¿e 
+$view = 'views/' .get_class($this). '/' . $this->action. '.php';
+require($view)

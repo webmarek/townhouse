@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - maropom92@localhost" uuid="61f76f1b-bdea-4299-ad54-e03bb9324f51">
+    <database-info product="MySQL" version="5.5.5-10.1.10-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="maropom92">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="biblioteka"/>
+      <schema id="3" name="cosinus"/>
+      <schema id="4" name="cosinus1"/>
+      <schema id="5" name="ecommerce"/>
+      <schema id="6" name="information_schema"/>
+      <schema id="7" name="joomla"/>
+      <schema id="8" name="ksiegarnia"/>
+      <schema id="9" name="ksiega_4a"/>
+      <schema id="10" name="mysql"/>
+      <schema id="11" name="osadnicy"/>
+      <schema id="12" name="performance_schema"/>
+      <schema id="13" name="phpmyadmin"/>
+      <schema id="14" name="quiz"/>
+      <schema id="15" name="shareboard"/>
+      <schema id="16" name="test"/>
+      <schema id="17" name="test2"/>
+      <schema id="18" name="uzytkownicy"/>
+      <schema id="19" name="zajecia"/>
+      <table id="20" parent="1" name="admins"/>
+      <table id="21" parent="1" name="prices"/>
+      <table id="22" parent="1" name="usage"/>
+      <table id="23" parent="1" name="uzytkownicy"/>
+      <column id="24" parent="20" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="25" parent="20" name="user">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="26" parent="20" name="pass">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="27" parent="20" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <key id="28" parent="20" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="29" parent="21" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(255)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="30" parent="21" name="resource">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="31" parent="21" name="resource_price">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)|0</data-type>
+      </column>
+      <key id="32" parent="21" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="33" parent="22" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="34" parent="22" name="user">
+        <mandatory>1</mandatory>
+        <data-type>int(3)|0</data-type>
+      </column>
+      <column id="35" parent="22" name="year">
+        <mandatory>1</mandatory>
+        <data-type>int(4)|0</data-type>
+      </column>
+      <column id="36" parent="22" name="month">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="37" parent="22" name="hwater">
+        <mandatory>1</mandatory>
+        <data-type>float|0</data-type>
+      </column>
+      <column id="38" parent="22" name="cwater">
+        <mandatory>1</mandatory>
+        <data-type>float|0</data-type>
+      </column>
+      <column id="39" parent="22" name="electricity">
+        <mandatory>1</mandatory>
+        <data-type>int(8)|0</data-type>
+      </column>
+      <column id="40" parent="22" name="additional">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <key id="41" parent="22" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="42" parent="23" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="43" parent="23" name="user">
+        <data-type>int(2)|0</data-type>
+      </column>
+      <column id="44" parent="23" name="pass">
+        <data-type>varchar(150)|0</data-type>
+      </column>
+      <column id="45" parent="23" name="email">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <key id="46" parent="23" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
