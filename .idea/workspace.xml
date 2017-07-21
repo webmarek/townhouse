@@ -37,8 +37,8 @@
             <file leaf-file-name="style2.css" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="249">
-                    <caret line="302" column="1" selection-start-line="302" selection-start-column="1" selection-end-line="302" selection-end-column="1" />
+                  <state relative-caret-position="67">
+                    <caret line="295" column="11" selection-start-line="295" selection-start-column="11" selection-end-line="295" selection-end-column="23" />
                     <folding />
                   </state>
                 </provider>
@@ -47,7 +47,7 @@
             <file leaf-file-name="addMonthAll.php" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="695">
+                  <state relative-caret-position="591">
                     <caret line="63" column="76" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
                     <folding />
                   </state>
@@ -86,7 +86,7 @@
       <file leaf-file-name="addMonthAll.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/admins/addMonthAll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="176">
               <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
             </state>
@@ -773,15 +773,15 @@
       <workItem from="1499980963249" duration="12439000" />
       <workItem from="1500121998925" duration="366000" />
       <workItem from="1500272055821" duration="30529000" />
-      <workItem from="1500572767155" duration="4606000" />
+      <workItem from="1500572767155" duration="5193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327077000" />
+    <option name="totallyTimeSpent" value="327664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-188" width="1936" height="1066" extended-state="6" />
+    <frame x="-1928" y="-188" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1123,7 +1123,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
+        <state relative-caret-position="591">
           <caret line="63" column="76" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
           <folding />
         </state>
@@ -1131,7 +1131,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/admins/addMonthAll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="176">
           <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
@@ -1153,18 +1153,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="67">
+          <caret line="295" column="11" selection-start-line="295" selection-start-column="11" selection-end-line="295" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
+    <entry file="file://$PROJECT_DIR$/views/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="302" column="1" selection-start-line="302" selection-start-column="1" selection-end-line="302" selection-end-column="1" />
+        <state relative-caret-position="598">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
