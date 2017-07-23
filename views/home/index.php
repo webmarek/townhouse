@@ -11,15 +11,17 @@ if (isset($_SESSION['is_logged_in'])) {
 
     <h3>Witamy w serwisie lokatorów kamienicy czynszowej</h3>
 
-    <div id="slider">
-        <ul class="slides">
-            <li class="slide slide1">slide1</li>
-            <li class="slide slide2">slide2</li>
-            <li class="slide slide3">slide3</li>
-            <li class="slide slide4">slide4</li>
-            <li class="slide slide5">slide5</li>
-            <li class="slide slide1">slide1</li>
-        </ul>
+    <div id="shadow2">
+        <div id="slider">
+            <ul class="slides">
+                <li class="slide slide1"><img src="<?php echo ROOT_PATH; ?>assets/img/home/1.jpg"></li>
+                <li class="slide slide2"><img src="<?php echo ROOT_PATH; ?>assets/img/home/2.jpg"></li>
+                <li class="slide slide3"><img src="<?php echo ROOT_PATH; ?>assets/img/home/3.jpg"></li>
+                <li class="slide slide4"><img src="<?php echo ROOT_PATH; ?>assets/img/home/4.jpg"></li>
+                <li class="slide slide5"><img src="<?php echo ROOT_PATH; ?>assets/img/home/5.jpg"></li>
+                <li class="slide slide1"><img src="<?php echo ROOT_PATH; ?>assets/img/home/1.jpg"></li>
+            </ul>
+        </div>
     </div>
 
 

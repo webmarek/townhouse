@@ -31,6 +31,8 @@ pomysł na dodatkowy przycisk wylaczajacy auto-check on blur drugi input , wraz 
 
 zmienic te jezdzace przyciski na framework Icons
 
-zgitować
+zgitować ++
 
-dodac przysik ktory z powrotem zmieni kolor wszytskich poletek na biały
+w momencie opuszczania strony dzieje sie jeden event - mozna w nim odpalic ta wspaniala funkcje fadeoutu.
+i tak samo podczas pojawienia sie strony - fade in
+

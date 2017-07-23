@@ -369,3 +369,19 @@ input:focus:-ms-input-placeholder {
     padding: 20px;
     font-size: 15px;
 }
+
+#shadow2{
+    width: 720px;
+    text-align: left;
+    margin: auto;
+}
+
+#shadow2:before {
+    content: '';
+    position: absolute;
+    width: 720px;
+    height: 400px;
+    -moz-box-shadow: inset 0px 0px 4px 6px rgba(54, 54, 54, 1);
+    -webkit-box-shadow: inset 0px 0px 4px 6px rgba(54, 54, 54, 1);
+    box-shadow: inset 0px 0px 12px 8px rgba(54, 54, 54, 1);
+}
