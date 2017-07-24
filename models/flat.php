@@ -1,10 +1,13 @@
 <?php
-class FlatModel extends Model{
 
-    public function Index(){
+class FlatModel extends Model
+{
 
-        if(!isset($_SESSION['is_logged_in'])) {
-            header('location: '.ROOT_PATH);
+    public function Index()
+    {
+
+        if (!isset($_SESSION['is_logged_in'])) {
+            header('location: ' . ROOT_PATH);
             exit();
         }
 
@@ -18,12 +21,12 @@ class FlatModel extends Model{
             'prices' => [],
         ];
 
-        $year = (string) date("Y")-1; // od tego roku rok poprzedni
-        $month = (string) date("n")+1;
+        $year = (string)date("Y") - 1; // od tego roku rok poprzedni
+        $month = (string)date("n");
 
-        for($i=1; $i<=12; $i++) {
+        for ($i = 1; $i <= 12; $i++) {
 
-            $this->query('SELECT * FROM `usage` WHERE `user` = '.$user.' AND `year` = '.$year.' AND `month` = '.$month);
+            $this->query('SELECT * FROM `usage` WHERE `user` = ' . $user . ' AND `year` = ' . $year . ' AND `month` = ' . $month);
 
             $rows = $this->single();
 
@@ -31,10 +34,10 @@ class FlatModel extends Model{
             array_push($data['hwater'], $rows['hwater']);
             array_push($data['electricity'], $rows['electricity']);
 
-            if($month<=11){
+            if ($month <= 11) {
                 $month++;
-            }elseif($month==12){
-                $month=1;
+            } elseif ($month == 12) {
+                $month = 1;
                 $year++;
             }
 

@@ -12,7 +12,7 @@ function drawTable($picture, $resource)
     echo "<br/><table><th colspan = 13><img src='" . ROOT_PATH . "assets/img/flats/resources/" . $picture . ".png' height='45px' width='70px'></th><tr>";
 
     echo "<td>miesiąc</td>";
-    $month = (string)date("n") + 1;
+    $month = (string)date("n");
 
     for ($i = 0; $i <= 11; $i++) {
 
@@ -161,11 +161,29 @@ function drawTable($picture, $resource)
 
     <h3 id="trash">۩ OŚMIECONY TRAWNIK ۩</h3>
     <br>
+    <p>Cras rhoncus, augue ut feugiat commodo, mauris dui vestibulum tortor, ac pharetra est ligula vitae ipsum.
+        Phasellus id iaculis lectus, ac efficitur dolor. Nam aliquet porttitor est, ut lobortis nisl. Etiam augue mi,
+        luctus ut finibus at, eleifend et nulla. Vestibulum luctus urna est, id ornare ex malesuada id. Nam tincidunt
+        mauris a finibus aliquam. Aliquam nunc massa, rhoncus congue odio eu, luctus maximus orci. Maecenas a iaculis
+        dui, ac vehicula lacus. Vestibulum neque ipsum, finibus nec vestibulum ut, tempor nec purus. Morbi vulputate
+        lobortis enim, et sodales urna rhoncus malesuada. Fusce dignissim risus ac tempus luctus. Vivamus sed pharetra
+        neque. Praesent eget felis vulputate, tempus augue ut, fringilla nulla.</p>
+    <br>
+    &sect;
     <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/trash.jpg">
     <br>
 
     <h3 id="cart">۩ WÓZEK ۩</h3>
     <br>
+    <p>Proin sagittis pulvinar placerat. Integer facilisis ante quam, sit amet fringilla orci luctus vitae. Sed
+        convallis sapien ut velit vestibulum, ac lobortis sapien cursus. Nulla hendrerit dui nisi, nec aliquam ligula
+        luctus at. Vivamus blandit sem sit amet diam scelerisque, a facilisis neque venenatis. Duis vestibulum eros id
+        urna hendrerit, ut tempor lacus elementum. Aenean dignissim, nibh non volutpat tempor, urna sem sodales justo,
+        nec imperdiet diam sem vitae libero. Etiam ornare nec nisl vitae sollicitudin. Phasellus elementum eu erat vel
+        posuere. Ut viverra sem odio. Vivamus tempus arcu vitae dictum auctor. Vestibulum mollis nisl eu bibendum
+        accumsan. Quisque tincidunt nec neque nec facilisis.</p>
+    <br>
+    &sect;
     <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/cart.png">
     <br>
 
