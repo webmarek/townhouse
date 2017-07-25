@@ -92,19 +92,19 @@ class Support extends Model
 
 $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 
-if ($post['driver'] == "major") {
+if ($post['driver'] === "major") {
 
     $support = new Support;
 
     $support->processDataMajor();
 
-} elseif ($post['driver'] == "minor") {
+} elseif ($post['driver'] === "minor") {
 
     $support = new Support;
 
     $support->processDataMinor();
 
-} elseif ($post['driver'] == "particular") {
+} elseif ($post['driver'] === "particular") {
 
     $support = new Support;
 

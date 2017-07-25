@@ -36,7 +36,7 @@ class FlatModel extends Model
 
             if ($month <= 11) {
                 $month++;
-            } elseif ($month == 12) {
+            } elseif ($month === 12) {
                 $month = 1;
                 $year++;
             }

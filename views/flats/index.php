@@ -20,7 +20,7 @@ function drawTable($picture, $resource)
 
         if ($month <= 11) {
             $month++;
-        } elseif ($month == 12) {
+        } elseif ($month === 12) {
             $month = 1;
         }
     }
@@ -170,6 +170,8 @@ function drawTable($picture, $resource)
         neque. Praesent eget felis vulputate, tempus augue ut, fringilla nulla.</p>
     <br>
     &sect;
+    <br>
+    <br>
     <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/trash.jpg">
     <br>
 
@@ -184,6 +186,8 @@ function drawTable($picture, $resource)
         accumsan. Quisque tincidunt nec neque nec facilisis.</p>
     <br>
     &sect;
+    <br>
+    <br>
     <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/cart.png">
     <br>
 

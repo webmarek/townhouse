@@ -119,7 +119,7 @@ class AdminModel extends Model
             $electricity = $post['electricityUpdate'];
             settype($electricity, "integer");
 
-            if (($hwater == 0) && ($cwater == 0) && ($electricity == 0)) {
+            if (($hwater === 0) && ($cwater === 0) && ($electricity === 0)) {
 
                 $this->query('DELETE FROM `usage` WHERE `year` = :year AND `month`=:month AND `user` = :user ');
 
