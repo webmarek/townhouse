@@ -11,12 +11,8 @@ $(document).ready(function() {
 
 	//cache DOM elements
 	var $slider = $('#slider');
-	var $slideContainer = $('.slides', $slider);//its one piece
-	var $slides = $('.slide', $slider);//it is an array
-
-	/*above means the same as: $slider.find('.slides');
-	* or $slideContainer.find('.slide')
-	* */
+	var $slideContainer = $slider.find('.slides');//its one piece
+	var $slides = $slideContainer.find('.slide');//it is an array
 
 	var interval;
 
@@ -30,6 +26,7 @@ $(document).ready(function() {
 			});
 		}, pause);
 	}
+
 	function pauseSlider() {
 		clearInterval(interval);
 	}
