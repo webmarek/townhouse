@@ -1,4 +1,4 @@
-.btn-share{
+/*.btn-share{
     margin-bottom: 20px;
 }
 .form-group{
@@ -11,24 +11,10 @@
     margin: auto;
 }
 
-.shadow
-{
-    position:relative;
-    text-align: center;
-}
 
-.shadow:before
-{
-    content:'';
-    position:absolute;
-    width:952px;
-    height:146px;
-    -moz-box-shadow:inset 0px 0px 6px 6px rgba(221,221,221,1);
-    -webkit-box-shadow:inset 0px 0px 6px 6px rgba(221,221,221,1);
-    box-shadow:inset 0px 0px 6px 6px rgba(221,221,221,1);
-}
+
 
 h3{
     text-align: center;
-}
+}*/
 

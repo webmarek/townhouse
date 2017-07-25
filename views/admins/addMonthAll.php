@@ -59,9 +59,9 @@ if(!isset($_SESSION['is_logged_in_admin'])) {
 
 		</form>
 </div>
-<div id="beginAlert">uwaga - w tym formularzu można umieszczać tylko cyfry</div>
+<div id="beginAlert" title="UWAGA!"><p class="alertParagraph">W tym formularzu można umieszczać tylko cyfry</p></div>
 
-<div id="hasNotYet">nie ma jeszcze wpisów w danym miesiacu danego roku</div>
+<div id="hasNotYet"><p class="alertParagraph">nie ma jeszcze wpisów w danym miesiacu danego roku</p></div>
 
 <div id="hasAlready"></div>
 

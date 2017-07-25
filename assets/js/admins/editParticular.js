@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+	$(":text")[0].focus();
+
+	$('form').submit(function () {
+		var subButton = $(this).find(':submit');
+		subButton.attr('disabled', true);
+		subButton.val('...sending information...');
+	});
+
 	$('.inputInt').keydown(function (e) {
 // Allow: backspace, delete, tab, escape, enter and .
 		if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
@@ -31,8 +39,8 @@ $(document).ready(function () {
 				$(this).dialog('close');
 			}
 		},
-		width: 500,
-		height: 300
+		width: 600,
+		height: 400
 	});
 
 

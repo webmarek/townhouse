@@ -61,8 +61,8 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
         </form>
     </div>
 
-    <div id="noToShowAlert">
-        W podanym miejscu nie ma jeszcze danych, nie ma czego edytować
+    <div id="noToShowAlert" title="UWAGA!">
+        <p class="alertParagraph" >W podanym miejscu nie ma jeszcze danych, nie ma czego edytować</p>
     </div>
 
 

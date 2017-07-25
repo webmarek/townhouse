@@ -1,6 +1,13 @@
 $(document).ready(function () {
 
-	/*$("#checkEach").tooltip();*/
+	$(":text")[0].focus();
+
+	// disable submit button on submit
+	$('form').submit(function () {
+		var subButton = $(this).find(':submit');
+		subButton.attr('disabled', true);
+		subButton.val('...sending information...');
+	});
 
 	$("#beginAlert").dialog({
 		modal: true,
@@ -68,7 +75,7 @@ $(document).ready(function () {
 		var year = $('#year').val();
 		var month = $('#month').val();
 
-		if((year!="") && (month!="")) {
+		if ((year != "") && (month != "")) {
 			$.post(
 				'../models/support.php',
 				{driver: "major", year: year, month: month},
@@ -79,14 +86,13 @@ $(document).ready(function () {
 					if (returned == 0) {
 						$("#hasNotYet").dialog("open");
 					} else {
-						var text = "uwaga, są już wpisy w podanym roku i miesiącu (ich liczba to " + returned + "), zachowaj szczególną uwagę i ostrożność";
+						var text = "<p class='alertParagraph'>uwaga, są już wpisy w podanym roku i miesiącu (ich liczba to " + returned + "), zachowaj szczególną uwagę i ostrożność</p>";
 
 						$("#hasAlready").html(text).dialog("open");
 					}
 				}
 			);
 		}
-
 
 
 	});
