@@ -12,7 +12,7 @@ POMYSŁ ns css ogólnie:
 
 POMYSŁ na funkcję drawTable w index.php we flatsach
     czy bedzie dalo sie ja umiescic w modelu?
-    czy musi zostac w tym miejscu gdzi jest? to sie okaze
+    czy musi zostac w tym miejscu gdzie jest? to sie okaze
 
 
 
@@ -35,4 +35,10 @@ zgitować ++
 
 w momencie opuszczania strony dzieje sie jeden event - mozna w nim odpalic ta wspaniala funkcje fadeoutu.
 i tak samo podczas pojawienia sie strony - fade in
+
+dodac czcionke
+uzyc bootsrapa do:
+    -wysrodkowania elementow
+    -dodania ogolnej responsywnosci
+        -zamienic statyczne wartosci z pixelami na em i %
 
