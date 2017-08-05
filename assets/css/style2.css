@@ -13,9 +13,8 @@ div {
 
 a {
     font-weight: bold;
-    display: block;
     border-radius: 10px;
-    line-height: 40px;
+    line-height: 60px;
     text-decoration: none;
 }
 
@@ -79,6 +78,7 @@ a {
 
 #menu {
     float: left;
+
 }
 
 .stickyMenu {

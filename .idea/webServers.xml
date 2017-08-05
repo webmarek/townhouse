@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d67610f1-c713-4cfd-92b9-3ae10124cd2e" name="XAMPP Apache" url="http://localhost/kamienicaMVC2">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\kamienicaMVC2" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

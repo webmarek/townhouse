@@ -15,10 +15,8 @@ $(document).ready(function () {
 		},
 		icons: {
 			submenu: 'ui-icon-triangle-1-s'
-		},
-		show: true,
-		hide: true
-	});
+		}
+    });
 
 	var menuY = $divMenu.offset().top;
 	var menuX = $divMenu.offset().left;
