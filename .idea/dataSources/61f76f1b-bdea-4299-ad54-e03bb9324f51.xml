@@ -5,7 +5,9 @@
     <schema id="2" parent="1" name="maropom92">
       <Visible>1</Visible>
     </schema>
-    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="3" parent="1" name="information_schema">
+      <Current>1</Current>
+    </schema>
     <schema id="4" parent="1" name="mysql"/>
     <schema id="5" parent="1" name="performance_schema"/>
     <schema id="6" parent="1" name="phpmyadmin"/>
@@ -15,93 +17,116 @@
     <table id="10" parent="2" name="usage"/>
     <table id="11" parent="2" name="uzytkownicy"/>
     <column id="12" parent="8" name="id">
+      <Position>1</Position>
       <DataType>int(2)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="13" parent="8" name="user">
+      <Position>2</Position>
       <DataType>int(2)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="14" parent="8" name="pass">
+      <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="15" parent="8" name="email">
+      <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <key id="16" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="17" parent="9" name="id">
+      <Position>1</Position>
       <DataType>int(255)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="18" parent="9" name="resource">
+      <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="19" parent="9" name="resource_price">
+      <Position>3</Position>
       <DataType>decimal(5,2)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <key id="20" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="21" parent="10" name="id">
+      <Position>1</Position>
       <DataType>int(6)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="22" parent="10" name="user">
+      <Position>2</Position>
       <DataType>int(3)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="23" parent="10" name="year">
+      <Position>3</Position>
       <DataType>int(4)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="24" parent="10" name="month">
+      <Position>4</Position>
       <DataType>int(2)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="25" parent="10" name="hwater">
+      <Position>5</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="26" parent="10" name="cwater">
+      <Position>6</Position>
       <DataType>float|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="27" parent="10" name="electricity">
+      <Position>7</Position>
       <DataType>int(8)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="28" parent="10" name="additional">
+      <Position>8</Position>
       <DataType>varchar(255)|0</DataType>
     </column>
     <key id="29" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="30" parent="11" name="id">
+      <Position>1</Position>
       <DataType>int(2)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="31" parent="11" name="user">
+      <Position>2</Position>
       <DataType>int(2)|0</DataType>
     </column>
     <column id="32" parent="11" name="pass">
+      <Position>3</Position>
       <DataType>varchar(150)|0</DataType>
     </column>
     <column id="33" parent="11" name="email">
+      <Position>4</Position>
       <DataType>varchar(20)|0</DataType>
     </column>
     <key id="34" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

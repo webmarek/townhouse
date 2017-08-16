@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:maropom92|maropom92:</introspection-schemas>
+      <introspection-schemas>*:maropom92</introspection-schemas>
       <resolve-scope>maropom92:</resolve-scope>
       <unqualified-resolve-schemas>maropom92:</unqualified-resolve-schemas>
     </data-source>

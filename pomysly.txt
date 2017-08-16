@@ -36,9 +36,12 @@ zgitować ++
 w momencie opuszczania strony dzieje sie jeden event - mozna w nim odpalic ta wspaniala funkcje fadeoutu.
 i tak samo podczas pojawienia sie strony - fade in
 
-dodac czcionke
+
+NOWY BOSTRAP I RESPONSYWNOSC
+dodac czcionke Revalia z google fontsow
 uzyc bootsrapa do:
     -wysrodkowania elementow
     -dodania ogolnej responsywnosci
         -zamienic statyczne wartosci z pixelami na em i %
+        -DODAC na poczatku ten viewport
 

@@ -1,13 +1,15 @@
+
 $(document).ready(function () {
 
 	$(":text")[0].focus();
 
 	// disable submit button on submit
-	$('form').submit(function () {
+	/*$('form').submit(function (a) {
 		var subButton = $(this).find(':submit');
 		subButton.attr('disabled', true);
 		subButton.val('...sending information...');
-	});
+		return true;
+	});*/
 
 	$("#beginAlert").dialog({
 		modal: true,
