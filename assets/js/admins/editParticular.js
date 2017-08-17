@@ -2,11 +2,11 @@ $(document).ready(function () {
 
 	$(":text")[0].focus();
 
-	$('form').submit(function () {
+	/*$('form').submit(function () {
 		var subButton = $(this).find(':submit');
 		subButton.attr('disabled', true);
 		subButton.val('...sending information...');
-	});
+	});*/
 
 	$('.inputInt').keydown(function (e) {
 // Allow: backspace, delete, tab, escape, enter and .
