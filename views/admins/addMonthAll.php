@@ -11,7 +11,7 @@ if(!isset($_SESSION['is_logged_in_admin'])) {
 
 
 
-		<div id="container2"><div ><a href="<?php echo ROOT_URL;?>/admins" class="button">wstecz</a></div>
+		<div id="container2"><div ><a href="<?php echo ROOT_URL;?>admins" class="button">wstecz</a></div>
 
 		<form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
 			<table>

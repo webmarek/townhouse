@@ -11,7 +11,7 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 <script src="<?php echo ROOT_URL;?>assets/js/admins/editParticular.js" type="text/javascript"></script>
 
     <div id="container2">
-        <div><a href="<?php echo ROOT_URL; ?>/admins" class="button">wstecz</a></div>
+        <div><a href="<?php echo ROOT_URL; ?>admins" class="button">wstecz</a></div>
 
         <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>" id="form">
             <table id="particular">
